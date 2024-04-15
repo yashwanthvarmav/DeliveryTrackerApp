@@ -1,0 +1,7 @@
+{
+  "name": "DeviveryTrackerApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
