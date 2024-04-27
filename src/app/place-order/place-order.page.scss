@@ -1,0 +1,89 @@
+.custom-toolbar {
+  --background: #0450a0; /* Blue background color */
+  height: 110px; /* Increase the height to accommodate the logo */
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; 
+  height: 80px; 
+  margin-right: 10px;
+}
+
+.title {
+  color: white; 
+  font-size: 10px; 
+  font-weight: bold; 
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+
+ion-header {
+    --ion-background-color: #000000; 
+  }
+  
+  ion-toolbar {
+    --background: #000000; 
+    --color: #FFDB58; 
+  }
+  
+  ion-title {
+    color: white; 
+  }
+  
+  ion-content {
+    --ion-background-color: white; 
+  }
+  
+  ion-item {
+    --color: white; 
+  }
+  
+  ion-input {
+    --color: white; 
+  }
+  
+  ion-button {
+    --background: #FFDB58; 
+    --color: #000000; 
+    --border-radius: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+  }
+  
+  ion-button:hover {
+    --background: #FFD700; 
+  }
+  
+  ion-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  ion-content {
+    --ion-background-color: transparent; 
+  }
+  
+  .input-box {
+    text-align: center; 
+    border-radius: 30px; 
+    border: 1px solid #CCCCCC; 
+    width: calc(100% - 40px); 
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
+  
+  .view-price-button {
+    margin: 20px auto; 
+    max-width: 500px; 
+  }

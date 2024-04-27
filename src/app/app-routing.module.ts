@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'place-order',
+    loadChildren: () => import('./place-order/place-order.module').then( m => m.PlaceOrderPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,20 +1,84 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
+<ion-header>
+  <ion-toolbar class="custom-toolbar">
+    <ion-title class="logo-title">
+      <img src="assets/logo.jpeg" alt="Logo" class="logo">
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding" style="background-image: url('assets/background5.jpeg'); background-size: cover; background-position: center;">
+    <ion-item>
+      <ion-label position="floating">Enter Tracking ID</ion-label>
+      <ion-input type="text" [(ngModel)]="trackingId"></ion-input>
+    <ion-button slot="end" (click)="trackCourier()">
+      <ion-icon name="search"></ion-icon>
+    </ion-button>
+    <ion-button slot="end" (click)="scanBarcode()">
+      <ion-icon name="Barcode"></ion-icon>
+    </ion-button>
+  </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="center-align">
+    <a (click)="showTrackingInstructions()" class="hypertext-link">How to track a courier?</a>
+  </div>
+
+  <ion-card *ngIf="courierDetails">
+    <ion-card-header>
+      Courier Details
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Tracking ID:</ion-label>
+          <ion-text>{{ courierDetails.trackingId }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Status:</ion-label>
+          <ion-text>{{ courierDetails.status }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Recipient Name:</ion-label>
+          <ion-text>{{ courierDetails.recipient.name }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Address:</ion-label>
+          <ion-text>{{ courierDetails.recipient.address }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Phone:</ion-label>
+          <ion-text>{{ courierDetails.recipient.phone }}</ion-text>
+        </ion-item>
+        <ion-item>
+          <ion-label>Email:</ion-label>
+          <ion-text>{{ courierDetails.recipient.email }}</ion-text>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="feature-container">
+
+    <ion-button expand="block" (click)="placeOrder()">
+      <ion-icon name="cart"></ion-icon>
+      Order a Courier
+    </ion-button>
+
+    <ion-button expand="block" (click)="viewMap()">
+      <ion-icon name="map"></ion-icon>
+      Courier hub Locator 
+    </ion-button>
+
+    <ion-button expand="block" (click)="contactSupport()">
+      <ion-icon name="call"></ion-icon>
+      Contact Support
+    </ion-button>
+
+    <ion-button expand="block" (click)="raiseComplaint()">
+      <ion-icon name="alert"></ion-icon>
+      Raise Complaint
+    </ion-button>
   </div>
 </ion-content>

@@ -1,27 +1,82 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.custom-toolbar {
+  --background: #0450a0; 
+  height: 110px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.logo-title {
+  display: flex;
+  align-items: center;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.logo {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
 }
 
-#container a {
-  text-decoration: none;
+.title {
+  color: white; 
+  font-size: 10px; 
+  font-weight: bold; 
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+
+ion-toolbar {
+  --background: #000000; 
+  --color: #FFDB58; 
+}
+
+ion-title {
+  color: white; 
+}
+
+ion-content {
+  --ion-background-color: transparent; 
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ion-button {
+  --background: #FFDB58;
+  --color: #000000;
+  --border-radius: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+}
+
+ion-button:hover {
+  --background: #FFD700;
+}
+
+ion-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%; 
+}
+
+.hypertext-link {
+  color: white; 
+  text-decoration: underline; 
+  cursor: pointer; 
+}
+
+.hypertext-link:hover {
+  color: lightgray;
 }

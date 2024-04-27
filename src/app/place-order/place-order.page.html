@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar class="custom-toolbar" style="--background: #0450a0; /* Blue background color */">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title class="logo-title">
+      <img src="assets/logo.jpeg" alt="Logo" class="logo">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" style="background-image: url('assets/background5.jpeg'); background-size: cover; background-position: center;">
+  <ion-item lines="none">
+    <ion-input class="input-box" type="text" [(ngModel)]="origin" placeholder="Origin"></ion-input>
+  </ion-item>
+  <br>
+  <br>
+  <ion-item lines="none">
+    <ion-input class="input-box" type="text" [(ngModel)]="destination" placeholder="Destination"></ion-input>
+  </ion-item>
+  <br>
+  <br>
+  <br>
+  <ion-button expand="block" (click)="viewEstimatedPrice()" class="view-price-button">
+    View Estimated Price
+  </ion-button>
+</ion-content>
