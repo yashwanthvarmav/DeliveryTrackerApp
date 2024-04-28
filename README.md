@@ -35,6 +35,7 @@ This app is developed using the Ionic framework with Angular, for building cross
 Our Delivery Tracking App is designed with user convenience in mind, offering a comprehensive suite of functionalities to enhance your delivery tracking experience. Whether you're monitoring parcel status, locating courier hubs, or resolving issues, our app ensures efficiency and ease of use every step of the way.
 
 7. Steps to Run the Application:
+   
 • Ionic app build ios or andriod
 • npx cap sync
 • ionic cap sync
