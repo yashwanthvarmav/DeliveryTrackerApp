@@ -36,7 +36,6 @@ Our Delivery Tracking App is designed with user convenience in mind, offering a 
 
 7. Steps to Run the Application:
    
-• Ionic app build ios or andriod
+• npx cap add ios
+• ionic cap build ios
 • npx cap sync
-• ionic cap sync
-• ionic cap run ios
