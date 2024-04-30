@@ -1,0 +1,328 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yashwanthvarmav/Library/Developer/Xcode/DerivedData/App-bnbqbilrobsgqgdxuhikbrsechrl/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/CordovaPlugins.framework/CordovaPlugins'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x73D73, size: 0x8, addend: 0x0, symName: _CordovaPluginsVersionString, symObjAddr: 0x0, symBinAddr: 0x19BE0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x73DA8, size: 0x8, addend: 0x0, symName: _CordovaPluginsVersionNumber, symObjAddr: 0x30, symBinAddr: 0x19C10, symSize: 0x0 }
+  - { offsetInCU: 0x42, offset: 0x73E00, size: 0x8, addend: 0x0, symName: __soundFileObject, symObjAddr: 0x29130, symBinAddr: 0x28D70, symSize: 0x0 }
+  - { offsetInCU: 0x5023, offset: 0x78DE1, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner isScanNotPossible]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x2C }
+  - { offsetInCU: 0x5094, offset: 0x78E52, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner notHasPermission]', symObjAddr: 0x2C, symBinAddr: 0x802C, symSize: 0x34 }
+  - { offsetInCU: 0x50D7, offset: 0x78E95, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner isUsageDescriptionSet]', symObjAddr: 0x60, symBinAddr: 0x8060, symSize: 0x108 }
+  - { offsetInCU: 0x511A, offset: 0x78ED8, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner scan:]', symObjAddr: 0x168, symBinAddr: 0x8168, symSize: 0x500 }
+  - { offsetInCU: 0x523B, offset: 0x78FF9, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner encode:]', symObjAddr: 0x668, symBinAddr: 0x8668, symSize: 0x1E4 }
+  - { offsetInCU: 0x529E, offset: 0x7905C, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner returnImage:format:callback:]', symObjAddr: 0x84C, symBinAddr: 0x884C, symSize: 0x154 }
+  - { offsetInCU: 0x5321, offset: 0x790DF, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner returnSuccess:format:cancelled:flipped:callback:]', symObjAddr: 0x9A0, symBinAddr: 0x89A0, symSize: 0x1A8 }
+  - { offsetInCU: 0x53D2, offset: 0x79190, size: 0x8, addend: 0x0, symName: '-[CDVBarcodeScanner returnError:callback:]', symObjAddr: 0xB48, symBinAddr: 0x8B48, symSize: 0xC0 }
+  - { offsetInCU: 0x5439, offset: 0x791F7, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor initWithPlugin:callback:parentViewController:alterateOverlayXib:]', symObjAddr: 0xC08, symBinAddr: 0x8C08, symSize: 0x1E8 }
+  - { offsetInCU: 0x557C, offset: 0x7933A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor dealloc]', symObjAddr: 0xDF0, symBinAddr: 0x8DF0, symSize: 0xE8 }
+  - { offsetInCU: 0x55ED, offset: 0x793AB, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor scanBarcode]', symObjAddr: 0xEE4, symBinAddr: 0x8EE4, symSize: 0x164 }
+  - { offsetInCU: 0x5632, offset: 0x793F0, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor openDialog]', symObjAddr: 0x1048, symBinAddr: 0x9048, symSize: 0x94 }
+  - { offsetInCU: 0x5666, offset: 0x79424, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor barcodeScanDone:]', symObjAddr: 0x10DC, symBinAddr: 0x90DC, symSize: 0x124 }
+  - { offsetInCU: 0x56BC, offset: 0x7947A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor checkResult:]', symObjAddr: 0x1200, symBinAddr: 0x9200, symSize: 0x270 }
+  - { offsetInCU: 0x5750, offset: 0x7950E, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor barcodeScanSucceeded:format:]', symObjAddr: 0x1470, symBinAddr: 0x9470, symSize: 0xB8 }
+  - { offsetInCU: 0x584D, offset: 0x7960B, size: 0x8, addend: 0x0, symName: '___47-[CDVbcsProcessor barcodeScanSucceeded:format:]_block_invoke', symObjAddr: 0x1528, symBinAddr: 0x9528, symSize: 0xBC }
+  - { offsetInCU: 0x58CE, offset: 0x7968C, size: 0x8, addend: 0x0, symName: '___47-[CDVbcsProcessor barcodeScanSucceeded:format:]_block_invoke_2', symObjAddr: 0x15E4, symBinAddr: 0x95E4, symSize: 0x9C }
+  - { offsetInCU: 0x5932, offset: 0x796F0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s48s, symObjAddr: 0x1680, symBinAddr: 0x9680, symSize: 0x30 }
+  - { offsetInCU: 0x595B, offset: 0x79719, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s48s, symObjAddr: 0x16B0, symBinAddr: 0x96B0, symSize: 0x30 }
+  - { offsetInCU: 0x597A, offset: 0x79738, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor barcodeScanFailed:]', symObjAddr: 0x16E0, symBinAddr: 0x96E0, symSize: 0xE8 }
+  - { offsetInCU: 0x59FA, offset: 0x797B8, size: 0x8, addend: 0x0, symName: '___37-[CDVbcsProcessor barcodeScanFailed:]_block_invoke', symObjAddr: 0x17C8, symBinAddr: 0x97C8, symSize: 0x84 }
+  - { offsetInCU: 0x5A4D, offset: 0x7980B, size: 0x8, addend: 0x0, symName: '___37-[CDVbcsProcessor barcodeScanFailed:]_block_invoke_2', symObjAddr: 0x184C, symBinAddr: 0x984C, symSize: 0x8C }
+  - { offsetInCU: 0x5AA0, offset: 0x7985E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s40s, symObjAddr: 0x18D8, symBinAddr: 0x98D8, symSize: 0x28 }
+  - { offsetInCU: 0x5AC9, offset: 0x79887, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x1900, symBinAddr: 0x9900, symSize: 0x28 }
+  - { offsetInCU: 0x5AE8, offset: 0x798A6, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor barcodeScanCancelled]', symObjAddr: 0x1928, symBinAddr: 0x9928, symSize: 0x7C }
+  - { offsetInCU: 0x5B1C, offset: 0x798DA, size: 0x8, addend: 0x0, symName: '___39-[CDVbcsProcessor barcodeScanCancelled]_block_invoke', symObjAddr: 0x19A4, symBinAddr: 0x99A4, symSize: 0xA8 }
+  - { offsetInCU: 0x5B5E, offset: 0x7991C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x1A4C, symBinAddr: 0x9A4C, symSize: 0x8 }
+  - { offsetInCU: 0x5B85, offset: 0x79943, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x1A54, symBinAddr: 0x9A54, symSize: 0x8 }
+  - { offsetInCU: 0x5BA4, offset: 0x79962, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor flipCamera]', symObjAddr: 0x1A5C, symBinAddr: 0x9A5C, symSize: 0x80 }
+  - { offsetInCU: 0x5BD8, offset: 0x79996, size: 0x8, addend: 0x0, symName: '___29-[CDVbcsProcessor flipCamera]_block_invoke', symObjAddr: 0x1ADC, symBinAddr: 0x9ADC, symSize: 0x4C }
+  - { offsetInCU: 0x5C1A, offset: 0x799D8, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor toggleTorch]', symObjAddr: 0x1B28, symBinAddr: 0x9B28, symSize: 0xA8 }
+  - { offsetInCU: 0x5C5B, offset: 0x79A19, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setUpCaptureSession]', symObjAddr: 0x1BD0, symBinAddr: 0x9BD0, symSize: 0x478 }
+  - { offsetInCU: 0x5D45, offset: 0x79B03, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2048, symBinAddr: 0xA048, symSize: 0x10 }
+  - { offsetInCU: 0x5D6A, offset: 0x79B28, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2058, symBinAddr: 0xA058, symSize: 0x8 }
+  - { offsetInCU: 0x5D89, offset: 0x79B47, size: 0x8, addend: 0x0, symName: '___38-[CDVbcsProcessor setUpCaptureSession]_block_invoke', symObjAddr: 0x2060, symBinAddr: 0xA060, symSize: 0x6C }
+  - { offsetInCU: 0x5DF2, offset: 0x79BB0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32r, symObjAddr: 0x20CC, symBinAddr: 0xA0CC, symSize: 0x10 }
+  - { offsetInCU: 0x5E1B, offset: 0x79BD9, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32r, symObjAddr: 0x20DC, symBinAddr: 0xA0DC, symSize: 0xC }
+  - { offsetInCU: 0x5E3A, offset: 0x79BF8, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor captureOutput:didOutputMetadataObjects:fromConnection:]', symObjAddr: 0x20E8, symBinAddr: 0xA0E8, symSize: 0x298 }
+  - { offsetInCU: 0x5ED1, offset: 0x79C8F, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor formatStringFromMetadata:]', symObjAddr: 0x2380, symBinAddr: 0xA380, symSize: 0x384 }
+  - { offsetInCU: 0x5F16, offset: 0x79CD4, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor formatObjectTypes]', symObjAddr: 0x2704, symBinAddr: 0xA704, symSize: 0x494 }
+  - { offsetInCU: 0x5F70, offset: 0x79D2E, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor plugin]', symObjAddr: 0x2B98, symBinAddr: 0xAB98, symSize: 0x8 }
+  - { offsetInCU: 0x5FA8, offset: 0x79D66, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setPlugin:]', symObjAddr: 0x2BA0, symBinAddr: 0xABA0, symSize: 0xC }
+  - { offsetInCU: 0x5FEA, offset: 0x79DA8, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor callback]', symObjAddr: 0x2BAC, symBinAddr: 0xABAC, symSize: 0x8 }
+  - { offsetInCU: 0x6022, offset: 0x79DE0, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setCallback:]', symObjAddr: 0x2BB4, symBinAddr: 0xABB4, symSize: 0xC }
+  - { offsetInCU: 0x6064, offset: 0x79E22, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor parentViewController]', symObjAddr: 0x2BC0, symBinAddr: 0xABC0, symSize: 0x8 }
+  - { offsetInCU: 0x609C, offset: 0x79E5A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setParentViewController:]', symObjAddr: 0x2BC8, symBinAddr: 0xABC8, symSize: 0xC }
+  - { offsetInCU: 0x60DE, offset: 0x79E9C, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor viewController]', symObjAddr: 0x2BD4, symBinAddr: 0xABD4, symSize: 0x8 }
+  - { offsetInCU: 0x6116, offset: 0x79ED4, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setViewController:]', symObjAddr: 0x2BDC, symBinAddr: 0xABDC, symSize: 0xC }
+  - { offsetInCU: 0x6158, offset: 0x79F16, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor captureSession]', symObjAddr: 0x2BE8, symBinAddr: 0xABE8, symSize: 0x8 }
+  - { offsetInCU: 0x6190, offset: 0x79F4E, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setCaptureSession:]', symObjAddr: 0x2BF0, symBinAddr: 0xABF0, symSize: 0xC }
+  - { offsetInCU: 0x61D2, offset: 0x79F90, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor previewLayer]', symObjAddr: 0x2BFC, symBinAddr: 0xABFC, symSize: 0x8 }
+  - { offsetInCU: 0x620A, offset: 0x79FC8, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setPreviewLayer:]', symObjAddr: 0x2C04, symBinAddr: 0xAC04, symSize: 0xC }
+  - { offsetInCU: 0x624C, offset: 0x7A00A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor alternateXib]', symObjAddr: 0x2C10, symBinAddr: 0xAC10, symSize: 0x8 }
+  - { offsetInCU: 0x6284, offset: 0x7A042, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setAlternateXib:]', symObjAddr: 0x2C18, symBinAddr: 0xAC18, symSize: 0xC }
+  - { offsetInCU: 0x62C6, offset: 0x7A084, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor is1D]', symObjAddr: 0x2C24, symBinAddr: 0xAC24, symSize: 0x8 }
+  - { offsetInCU: 0x62FE, offset: 0x7A0BC, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIs1D:]', symObjAddr: 0x2C2C, symBinAddr: 0xAC2C, symSize: 0x8 }
+  - { offsetInCU: 0x633A, offset: 0x7A0F8, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor is2D]', symObjAddr: 0x2C34, symBinAddr: 0xAC34, symSize: 0x8 }
+  - { offsetInCU: 0x6372, offset: 0x7A130, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIs2D:]', symObjAddr: 0x2C3C, symBinAddr: 0xAC3C, symSize: 0x8 }
+  - { offsetInCU: 0x63AE, offset: 0x7A16C, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor capturing]', symObjAddr: 0x2C44, symBinAddr: 0xAC44, symSize: 0x8 }
+  - { offsetInCU: 0x63E6, offset: 0x7A1A4, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setCapturing:]', symObjAddr: 0x2C4C, symBinAddr: 0xAC4C, symSize: 0x8 }
+  - { offsetInCU: 0x6422, offset: 0x7A1E0, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor results]', symObjAddr: 0x2C54, symBinAddr: 0xAC54, symSize: 0x8 }
+  - { offsetInCU: 0x645A, offset: 0x7A218, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setResults:]', symObjAddr: 0x2C5C, symBinAddr: 0xAC5C, symSize: 0xC }
+  - { offsetInCU: 0x649C, offset: 0x7A25A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor formats]', symObjAddr: 0x2C68, symBinAddr: 0xAC68, symSize: 0x8 }
+  - { offsetInCU: 0x64D3, offset: 0x7A291, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setFormats:]', symObjAddr: 0x2C70, symBinAddr: 0xAC70, symSize: 0xC }
+  - { offsetInCU: 0x6514, offset: 0x7A2D2, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isFrontCamera]', symObjAddr: 0x2C7C, symBinAddr: 0xAC7C, symSize: 0x8 }
+  - { offsetInCU: 0x654B, offset: 0x7A309, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsFrontCamera:]', symObjAddr: 0x2C84, symBinAddr: 0xAC84, symSize: 0x8 }
+  - { offsetInCU: 0x6586, offset: 0x7A344, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isShowFlipCameraButton]', symObjAddr: 0x2C8C, symBinAddr: 0xAC8C, symSize: 0x8 }
+  - { offsetInCU: 0x65BD, offset: 0x7A37B, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsShowFlipCameraButton:]', symObjAddr: 0x2C94, symBinAddr: 0xAC94, symSize: 0x8 }
+  - { offsetInCU: 0x65F8, offset: 0x7A3B6, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isShowTorchButton]', symObjAddr: 0x2C9C, symBinAddr: 0xAC9C, symSize: 0x8 }
+  - { offsetInCU: 0x662F, offset: 0x7A3ED, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsShowTorchButton:]', symObjAddr: 0x2CA4, symBinAddr: 0xACA4, symSize: 0x8 }
+  - { offsetInCU: 0x666A, offset: 0x7A428, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isFlipped]', symObjAddr: 0x2CAC, symBinAddr: 0xACAC, symSize: 0x8 }
+  - { offsetInCU: 0x66A1, offset: 0x7A45F, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsFlipped:]', symObjAddr: 0x2CB4, symBinAddr: 0xACB4, symSize: 0x8 }
+  - { offsetInCU: 0x66DC, offset: 0x7A49A, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isTransitionAnimated]', symObjAddr: 0x2CBC, symBinAddr: 0xACBC, symSize: 0x8 }
+  - { offsetInCU: 0x6713, offset: 0x7A4D1, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsTransitionAnimated:]', symObjAddr: 0x2CC4, symBinAddr: 0xACC4, symSize: 0x8 }
+  - { offsetInCU: 0x674E, offset: 0x7A50C, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor isSuccessBeepEnabled]', symObjAddr: 0x2CCC, symBinAddr: 0xACCC, symSize: 0x8 }
+  - { offsetInCU: 0x6785, offset: 0x7A543, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor setIsSuccessBeepEnabled:]', symObjAddr: 0x2CD4, symBinAddr: 0xACD4, symSize: 0x8 }
+  - { offsetInCU: 0x67C0, offset: 0x7A57E, size: 0x8, addend: 0x0, symName: '-[CDVbcsProcessor .cxx_destruct]', symObjAddr: 0x2CDC, symBinAddr: 0xACDC, symSize: 0x84 }
+  - { offsetInCU: 0x67F4, offset: 0x7A5B2, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor initWithPlugin:callback:stringToEncode:]', symObjAddr: 0x2D60, symBinAddr: 0xAD60, symSize: 0x120 }
+  - { offsetInCU: 0x685F, offset: 0x7A61D, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor dealloc]', symObjAddr: 0x2E80, symBinAddr: 0xAE80, symSize: 0x8C }
+  - { offsetInCU: 0x6893, offset: 0x7A651, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor generateImage]', symObjAddr: 0x2F0C, symBinAddr: 0xAF0C, symSize: 0x3AC }
+  - { offsetInCU: 0x6A87, offset: 0x7A845, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor plugin]', symObjAddr: 0x32B8, symBinAddr: 0xB2B8, symSize: 0x8 }
+  - { offsetInCU: 0x6ABF, offset: 0x7A87D, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor setPlugin:]', symObjAddr: 0x32C0, symBinAddr: 0xB2C0, symSize: 0xC }
+  - { offsetInCU: 0x6B01, offset: 0x7A8BF, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor callback]', symObjAddr: 0x32CC, symBinAddr: 0xB2CC, symSize: 0x8 }
+  - { offsetInCU: 0x6B39, offset: 0x7A8F7, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor setCallback:]', symObjAddr: 0x32D4, symBinAddr: 0xB2D4, symSize: 0xC }
+  - { offsetInCU: 0x6B7B, offset: 0x7A939, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor stringToEncode]', symObjAddr: 0x32E0, symBinAddr: 0xB2E0, symSize: 0x8 }
+  - { offsetInCU: 0x6BB3, offset: 0x7A971, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor setStringToEncode:]', symObjAddr: 0x32E8, symBinAddr: 0xB2E8, symSize: 0xC }
+  - { offsetInCU: 0x6BF5, offset: 0x7A9B3, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor size]', symObjAddr: 0x32F4, symBinAddr: 0xB2F4, symSize: 0x8 }
+  - { offsetInCU: 0x6C2D, offset: 0x7A9EB, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor setSize:]', symObjAddr: 0x32FC, symBinAddr: 0xB2FC, symSize: 0x8 }
+  - { offsetInCU: 0x6C6B, offset: 0x7AA29, size: 0x8, addend: 0x0, symName: '-[CDVqrProcessor .cxx_destruct]', symObjAddr: 0x3304, symBinAddr: 0xB304, symSize: 0x3C }
+  - { offsetInCU: 0x6C9F, offset: 0x7AA5D, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController initWithProcessor:alternateOverlay:]', symObjAddr: 0x3340, symBinAddr: 0xB340, symSize: 0xF8 }
+  - { offsetInCU: 0x6CF9, offset: 0x7AAB7, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController dealloc]', symObjAddr: 0x3438, symBinAddr: 0xB438, symSize: 0xA4 }
+  - { offsetInCU: 0x6D2D, offset: 0x7AAEB, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController loadView]', symObjAddr: 0x34DC, symBinAddr: 0xB4DC, symSize: 0xEC }
+  - { offsetInCU: 0x6D61, offset: 0x7AB1F, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController viewWillAppear:]', symObjAddr: 0x35C8, symBinAddr: 0xB5C8, symSize: 0x188 }
+  - { offsetInCU: 0x6DA2, offset: 0x7AB60, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController viewDidAppear:]', symObjAddr: 0x3750, symBinAddr: 0xB750, symSize: 0x2E4 }
+  - { offsetInCU: 0x6DF8, offset: 0x7ABB6, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController interfaceOrientationToVideoOrientation:]', symObjAddr: 0x3A34, symBinAddr: 0xBA34, symSize: 0x10 }
+  - { offsetInCU: 0x6E3B, offset: 0x7ABF9, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController startCapturing]', symObjAddr: 0x3A44, symBinAddr: 0xBA44, symSize: 0x48 }
+  - { offsetInCU: 0x6E6F, offset: 0x7AC2D, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController shutterButtonPressed]', symObjAddr: 0x3A8C, symBinAddr: 0xBA8C, symSize: 0x8 }
+  - { offsetInCU: 0x6EA1, offset: 0x7AC5F, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController cancelButtonPressed:]', symObjAddr: 0x3A94, symBinAddr: 0xBA94, symSize: 0x54 }
+  - { offsetInCU: 0x6EE2, offset: 0x7ACA0, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController flipCameraButtonPressed:]', symObjAddr: 0x3AE8, symBinAddr: 0xBAE8, symSize: 0x54 }
+  - { offsetInCU: 0x6F23, offset: 0x7ACE1, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController torchButtonPressed:]', symObjAddr: 0x3B3C, symBinAddr: 0xBB3C, symSize: 0x54 }
+  - { offsetInCU: 0x6F64, offset: 0x7AD22, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController buildOverlayViewFromXib]', symObjAddr: 0x3B90, symBinAddr: 0xBB90, symSize: 0x1D4 }
+  - { offsetInCU: 0x6FCB, offset: 0x7AD89, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController buildOverlayView]', symObjAddr: 0x3D64, symBinAddr: 0xBD64, symSize: 0x5E8 }
+  - { offsetInCU: 0x70F6, offset: 0x7AEB4, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController buildReticleImage]', symObjAddr: 0x434C, symBinAddr: 0xC34C, symSize: 0x1F8 }
+  - { offsetInCU: 0x7327, offset: 0x7B0E5, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController shouldAutorotate]', symObjAddr: 0x4544, symBinAddr: 0xC544, symSize: 0x8 }
+  - { offsetInCU: 0x735B, offset: 0x7B119, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController preferredInterfaceOrientationForPresentation]', symObjAddr: 0x454C, symBinAddr: 0xC54C, symSize: 0x58 }
+  - { offsetInCU: 0x738F, offset: 0x7B14D, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController supportedInterfaceOrientations]', symObjAddr: 0x45A4, symBinAddr: 0xC5A4, symSize: 0x8 }
+  - { offsetInCU: 0x73C3, offset: 0x7B181, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController shouldAutorotateToInterfaceOrientation:]', symObjAddr: 0x45AC, symBinAddr: 0xC5AC, symSize: 0xD8 }
+  - { offsetInCU: 0x740C, offset: 0x7B1CA, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController willAnimateRotationToInterfaceOrientation:duration:]', symObjAddr: 0x4684, symBinAddr: 0xC684, symSize: 0x108 }
+  - { offsetInCU: 0x746F, offset: 0x7B22D, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController resizeElements]', symObjAddr: 0x478C, symBinAddr: 0xC78C, symSize: 0x2F4 }
+  - { offsetInCU: 0x7578, offset: 0x7B336, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController processor]', symObjAddr: 0x4A80, symBinAddr: 0xCA80, symSize: 0x10 }
+  - { offsetInCU: 0x75B0, offset: 0x7B36E, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setProcessor:]', symObjAddr: 0x4A90, symBinAddr: 0xCA90, symSize: 0x14 }
+  - { offsetInCU: 0x75F2, offset: 0x7B3B0, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController shutterPressed]', symObjAddr: 0x4AA4, symBinAddr: 0xCAA4, symSize: 0x10 }
+  - { offsetInCU: 0x762A, offset: 0x7B3E8, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setShutterPressed:]', symObjAddr: 0x4AB4, symBinAddr: 0xCAB4, symSize: 0x10 }
+  - { offsetInCU: 0x7666, offset: 0x7B424, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController alternateXib]', symObjAddr: 0x4AC4, symBinAddr: 0xCAC4, symSize: 0x10 }
+  - { offsetInCU: 0x769E, offset: 0x7B45C, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setAlternateXib:]', symObjAddr: 0x4AD4, symBinAddr: 0xCAD4, symSize: 0x14 }
+  - { offsetInCU: 0x76E0, offset: 0x7B49E, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController overlayView]', symObjAddr: 0x4AE8, symBinAddr: 0xCAE8, symSize: 0x10 }
+  - { offsetInCU: 0x7718, offset: 0x7B4D6, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setOverlayView:]', symObjAddr: 0x4AF8, symBinAddr: 0xCAF8, symSize: 0x14 }
+  - { offsetInCU: 0x775A, offset: 0x7B518, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController toolbar]', symObjAddr: 0x4B0C, symBinAddr: 0xCB0C, symSize: 0x10 }
+  - { offsetInCU: 0x7791, offset: 0x7B54F, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setToolbar:]', symObjAddr: 0x4B1C, symBinAddr: 0xCB1C, symSize: 0x14 }
+  - { offsetInCU: 0x77D2, offset: 0x7B590, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController reticleView]', symObjAddr: 0x4B30, symBinAddr: 0xCB30, symSize: 0x10 }
+  - { offsetInCU: 0x7809, offset: 0x7B5C7, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setReticleView:]', symObjAddr: 0x4B40, symBinAddr: 0xCB40, symSize: 0x14 }
+  - { offsetInCU: 0x784A, offset: 0x7B608, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController orientationDelegate]', symObjAddr: 0x4B54, symBinAddr: 0xCB54, symSize: 0x10 }
+  - { offsetInCU: 0x7881, offset: 0x7B63F, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController setOrientationDelegate:]', symObjAddr: 0x4B64, symBinAddr: 0xCB64, symSize: 0x10 }
+  - { offsetInCU: 0x78BE, offset: 0x7B67C, size: 0x8, addend: 0x0, symName: '-[CDVbcsViewController .cxx_destruct]', symObjAddr: 0x4B74, symBinAddr: 0xCB74, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0x7C231, size: 0x8, addend: 0x0, symName: '+[CDVPictureOptions createFromTakePictureArguments:]', symObjAddr: 0x0, symBinAddr: 0xCBF0, symSize: 0x420 }
+  - { offsetInCU: 0x41, offset: 0x7C24B, size: 0x8, addend: 0x0, symName: _org_apache_cordova_validArrowDirections, symObjAddr: 0x1A890, symBinAddr: 0x28D78, symSize: 0x0 }
+  - { offsetInCU: 0x43F, offset: 0x7C649, size: 0x8, addend: 0x0, symName: '+[CDVPictureOptions createFromTakePictureArguments:]', symObjAddr: 0x0, symBinAddr: 0xCBF0, symSize: 0x420 }
+  - { offsetInCU: 0x4B2, offset: 0x7C6BC, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions quality]', symObjAddr: 0x420, symBinAddr: 0xD010, symSize: 0xC }
+  - { offsetInCU: 0x4E9, offset: 0x7C6F3, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setQuality:]', symObjAddr: 0x42C, symBinAddr: 0xD01C, symSize: 0x8 }
+  - { offsetInCU: 0x528, offset: 0x7C732, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions destinationType]', symObjAddr: 0x434, symBinAddr: 0xD024, symSize: 0x8 }
+  - { offsetInCU: 0x55F, offset: 0x7C769, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setDestinationType:]', symObjAddr: 0x43C, symBinAddr: 0xD02C, symSize: 0x8 }
+  - { offsetInCU: 0x59C, offset: 0x7C7A6, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions sourceType]', symObjAddr: 0x444, symBinAddr: 0xD034, symSize: 0x8 }
+  - { offsetInCU: 0x5D3, offset: 0x7C7DD, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setSourceType:]', symObjAddr: 0x44C, symBinAddr: 0xD03C, symSize: 0x8 }
+  - { offsetInCU: 0x610, offset: 0x7C81A, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions targetSize]', symObjAddr: 0x454, symBinAddr: 0xD044, symSize: 0x34 }
+  - { offsetInCU: 0x647, offset: 0x7C851, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setTargetSize:]', symObjAddr: 0x488, symBinAddr: 0xD078, symSize: 0x34 }
+  - { offsetInCU: 0x687, offset: 0x7C891, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions encodingType]', symObjAddr: 0x4BC, symBinAddr: 0xD0AC, symSize: 0x8 }
+  - { offsetInCU: 0x6BE, offset: 0x7C8C8, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setEncodingType:]', symObjAddr: 0x4C4, symBinAddr: 0xD0B4, symSize: 0x8 }
+  - { offsetInCU: 0x6FB, offset: 0x7C905, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions mediaType]', symObjAddr: 0x4CC, symBinAddr: 0xD0BC, symSize: 0x8 }
+  - { offsetInCU: 0x732, offset: 0x7C93C, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setMediaType:]', symObjAddr: 0x4D4, symBinAddr: 0xD0C4, symSize: 0x8 }
+  - { offsetInCU: 0x76F, offset: 0x7C979, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions allowsEditing]', symObjAddr: 0x4DC, symBinAddr: 0xD0CC, symSize: 0xC }
+  - { offsetInCU: 0x7A6, offset: 0x7C9B0, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setAllowsEditing:]', symObjAddr: 0x4E8, symBinAddr: 0xD0D8, symSize: 0x8 }
+  - { offsetInCU: 0x7E3, offset: 0x7C9ED, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions correctOrientation]', symObjAddr: 0x4F0, symBinAddr: 0xD0E0, symSize: 0xC }
+  - { offsetInCU: 0x81A, offset: 0x7CA24, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setCorrectOrientation:]', symObjAddr: 0x4FC, symBinAddr: 0xD0EC, symSize: 0x8 }
+  - { offsetInCU: 0x857, offset: 0x7CA61, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions saveToPhotoAlbum]', symObjAddr: 0x504, symBinAddr: 0xD0F4, symSize: 0xC }
+  - { offsetInCU: 0x88E, offset: 0x7CA98, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setSaveToPhotoAlbum:]', symObjAddr: 0x510, symBinAddr: 0xD100, symSize: 0x8 }
+  - { offsetInCU: 0x8CB, offset: 0x7CAD5, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions popoverOptions]', symObjAddr: 0x518, symBinAddr: 0xD108, symSize: 0xC }
+  - { offsetInCU: 0x902, offset: 0x7CB0C, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setPopoverOptions:]', symObjAddr: 0x524, symBinAddr: 0xD114, symSize: 0x8 }
+  - { offsetInCU: 0x941, offset: 0x7CB4B, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions cameraDirection]', symObjAddr: 0x52C, symBinAddr: 0xD11C, symSize: 0x8 }
+  - { offsetInCU: 0x978, offset: 0x7CB82, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setCameraDirection:]', symObjAddr: 0x534, symBinAddr: 0xD124, symSize: 0x8 }
+  - { offsetInCU: 0x9B5, offset: 0x7CBBF, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions popoverSupported]', symObjAddr: 0x53C, symBinAddr: 0xD12C, symSize: 0xC }
+  - { offsetInCU: 0x9EC, offset: 0x7CBF6, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setPopoverSupported:]', symObjAddr: 0x548, symBinAddr: 0xD138, symSize: 0x8 }
+  - { offsetInCU: 0xA29, offset: 0x7CC33, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions usesGeolocation]', symObjAddr: 0x550, symBinAddr: 0xD140, symSize: 0xC }
+  - { offsetInCU: 0xA60, offset: 0x7CC6A, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setUsesGeolocation:]', symObjAddr: 0x55C, symBinAddr: 0xD14C, symSize: 0x8 }
+  - { offsetInCU: 0xA9D, offset: 0x7CCA7, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions cropToSize]', symObjAddr: 0x564, symBinAddr: 0xD154, symSize: 0xC }
+  - { offsetInCU: 0xAD4, offset: 0x7CCDE, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions setCropToSize:]', symObjAddr: 0x570, symBinAddr: 0xD160, symSize: 0x8 }
+  - { offsetInCU: 0xB11, offset: 0x7CD1B, size: 0x8, addend: 0x0, symName: '-[CDVPictureOptions .cxx_destruct]', symObjAddr: 0x578, symBinAddr: 0xD168, symSize: 0x30 }
+  - { offsetInCU: 0xB44, offset: 0x7CD4E, size: 0x8, addend: 0x0, symName: '+[CDVCamera initialize]', symObjAddr: 0x5A8, symBinAddr: 0xD198, symSize: 0x10C }
+  - { offsetInCU: 0xB73, offset: 0x7CD7D, size: 0x8, addend: 0x0, symName: '-[CDVCamera urlTransformer:]', symObjAddr: 0x6B4, symBinAddr: 0xD2A4, symSize: 0xEC }
+  - { offsetInCU: 0xC35, offset: 0x7CE3F, size: 0x8, addend: 0x0, symName: '-[CDVCamera usesGeolocation]', symObjAddr: 0x7A0, symBinAddr: 0xD390, symSize: 0xA0 }
+  - { offsetInCU: 0xC89, offset: 0x7CE93, size: 0x8, addend: 0x0, symName: '-[CDVCamera popoverSupported]', symObjAddr: 0x840, symBinAddr: 0xD430, symSize: 0xA0 }
+  - { offsetInCU: 0xCF3, offset: 0x7CEFD, size: 0x8, addend: 0x0, symName: '-[CDVCamera takePicture:]', symObjAddr: 0x8E0, symBinAddr: 0xD4D0, symSize: 0x10C }
+  - { offsetInCU: 0xD46, offset: 0x7CF50, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke', symObjAddr: 0x9EC, symBinAddr: 0xD5DC, symSize: 0x2B4 }
+  - { offsetInCU: 0xDD7, offset: 0x7CFE1, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_2', symObjAddr: 0xCA0, symBinAddr: 0xD890, symSize: 0x118 }
+  - { offsetInCU: 0xE8F, offset: 0x7D099, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_3', symObjAddr: 0xDB8, symBinAddr: 0xD9A8, symSize: 0x314 }
+  - { offsetInCU: 0xEF9, offset: 0x7D103, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_4', symObjAddr: 0x10CC, symBinAddr: 0xDCBC, symSize: 0x54 }
+  - { offsetInCU: 0xF50, offset: 0x7D15A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x1120, symBinAddr: 0xDD10, symSize: 0x30 }
+  - { offsetInCU: 0xF79, offset: 0x7D183, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x1150, symBinAddr: 0xDD40, symSize: 0x28 }
+  - { offsetInCU: 0xF98, offset: 0x7D1A2, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke.116', symObjAddr: 0x1178, symBinAddr: 0xDD68, symSize: 0xC4 }
+  - { offsetInCU: 0xFEF, offset: 0x7D1F9, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke.120', symObjAddr: 0x123C, symBinAddr: 0xDE2C, symSize: 0x60 }
+  - { offsetInCU: 0x104A, offset: 0x7D254, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w, symObjAddr: 0x129C, symBinAddr: 0xDE8C, symSize: 0x38 }
+  - { offsetInCU: 0x1073, offset: 0x7D27D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w, symObjAddr: 0x12D4, symBinAddr: 0xDEC4, symSize: 0x30 }
+  - { offsetInCU: 0x1092, offset: 0x7D29C, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke.122', symObjAddr: 0x1304, symBinAddr: 0xDEF4, symSize: 0x118 }
+  - { offsetInCU: 0x112A, offset: 0x7D334, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_2.123', symObjAddr: 0x141C, symBinAddr: 0xE00C, symSize: 0x314 }
+  - { offsetInCU: 0x1194, offset: 0x7D39E, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_3.126', symObjAddr: 0x1730, symBinAddr: 0xE320, symSize: 0x54 }
+  - { offsetInCU: 0x11EB, offset: 0x7D3F5, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_4.127', symObjAddr: 0x1784, symBinAddr: 0xE374, symSize: 0xB4 }
+  - { offsetInCU: 0x1242, offset: 0x7D44C, size: 0x8, addend: 0x0, symName: '___25-[CDVCamera takePicture:]_block_invoke_5', symObjAddr: 0x1838, symBinAddr: 0xE428, symSize: 0x60 }
+  - { offsetInCU: 0x129D, offset: 0x7D4A7, size: 0x8, addend: 0x0, symName: '-[CDVCamera showCameraPicker:withOptions:]', symObjAddr: 0x1898, symBinAddr: 0xE488, symSize: 0xC4 }
+  - { offsetInCU: 0x1306, offset: 0x7D510, size: 0x8, addend: 0x0, symName: '___42-[CDVCamera showCameraPicker:withOptions:]_block_invoke', symObjAddr: 0x195C, symBinAddr: 0xE54C, symSize: 0x2CC }
+  - { offsetInCU: 0x1392, offset: 0x7D59C, size: 0x8, addend: 0x0, symName: '___42-[CDVCamera showCameraPicker:withOptions:]_block_invoke_2', symObjAddr: 0x1C28, symBinAddr: 0xE818, symSize: 0xC }
+  - { offsetInCU: 0x13D1, offset: 0x7D5DB, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1C34, symBinAddr: 0xE824, symSize: 0x8 }
+  - { offsetInCU: 0x13F8, offset: 0x7D602, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1C3C, symBinAddr: 0xE82C, symSize: 0x8 }
+  - { offsetInCU: 0x1417, offset: 0x7D621, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x1C44, symBinAddr: 0xE834, symSize: 0x30 }
+  - { offsetInCU: 0x1440, offset: 0x7D64A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x1C74, symBinAddr: 0xE864, symSize: 0x30 }
+  - { offsetInCU: 0x145F, offset: 0x7D669, size: 0x8, addend: 0x0, symName: '-[CDVCamera sendNoPermissionResult:]', symObjAddr: 0x1CA4, symBinAddr: 0xE894, symSize: 0xA4 }
+  - { offsetInCU: 0x14B2, offset: 0x7D6BC, size: 0x8, addend: 0x0, symName: '-[CDVCamera repositionPopover:]', symObjAddr: 0x1D48, symBinAddr: 0xE938, symSize: 0x128 }
+  - { offsetInCU: 0x1515, offset: 0x7D71F, size: 0x8, addend: 0x0, symName: '-[CDVCamera integerValueForKey:key:defaultValue:]', symObjAddr: 0x1E70, symBinAddr: 0xEA60, symSize: 0x50 }
+  - { offsetInCU: 0x159E, offset: 0x7D7A8, size: 0x8, addend: 0x0, symName: '-[CDVCamera displayPopover:]', symObjAddr: 0x1EC0, symBinAddr: 0xEAB0, symSize: 0x230 }
+  - { offsetInCU: 0x1638, offset: 0x7D842, size: 0x8, addend: 0x0, symName: '-[CDVCamera navigationController:willShowViewController:animated:]', symObjAddr: 0x20F0, symBinAddr: 0xECE0, symSize: 0x1BC }
+  - { offsetInCU: 0x16F9, offset: 0x7D903, size: 0x8, addend: 0x0, symName: '-[CDVCamera cleanup:]', symObjAddr: 0x22AC, symBinAddr: 0xEE9C, symSize: 0x1FC }
+  - { offsetInCU: 0x17FC, offset: 0x7DA06, size: 0x8, addend: 0x0, symName: '-[CDVCamera popoverControllerDidDismissPopover:]', symObjAddr: 0x24A8, symBinAddr: 0xF098, symSize: 0x194 }
+  - { offsetInCU: 0x1883, offset: 0x7DA8D, size: 0x8, addend: 0x0, symName: '-[CDVCamera processImage:info:options:]', symObjAddr: 0x263C, symBinAddr: 0xF22C, symSize: 0x500 }
+  - { offsetInCU: 0x1A32, offset: 0x7DC3C, size: 0x8, addend: 0x0, symName: '-[CDVCamera getImageMetadataFromAsset:]', symObjAddr: 0x2B3C, symBinAddr: 0xF72C, symSize: 0x13C }
+  - { offsetInCU: 0x1AA1, offset: 0x7DCAB, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x2C78, symBinAddr: 0xF868, symSize: 0x10 }
+  - { offsetInCU: 0x1AC6, offset: 0x7DCD0, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2C88, symBinAddr: 0xF878, symSize: 0x8 }
+  - { offsetInCU: 0x1AE5, offset: 0x7DCEF, size: 0x8, addend: 0x0, symName: '___39-[CDVCamera getImageMetadataFromAsset:]_block_invoke', symObjAddr: 0x2C90, symBinAddr: 0xF880, symSize: 0x44 }
+  - { offsetInCU: 0x1B70, offset: 0x7DD7A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x2CD4, symBinAddr: 0xF8C4, symSize: 0x34 }
+  - { offsetInCU: 0x1B99, offset: 0x7DDA3, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x2D08, symBinAddr: 0xF8F8, symSize: 0x2C }
+  - { offsetInCU: 0x1BB8, offset: 0x7DDC2, size: 0x8, addend: 0x0, symName: '-[CDVCamera convertImageMetadata:]', symObjAddr: 0x2D34, symBinAddr: 0xF924, symSize: 0x12C }
+  - { offsetInCU: 0x1D0F, offset: 0x7DF19, size: 0x8, addend: 0x0, symName: '-[CDVCamera options:requestPhotoPermissions:]', symObjAddr: 0x2E60, symBinAddr: 0xFA50, symSize: 0xD4 }
+  - { offsetInCU: 0x1D85, offset: 0x7DF8F, size: 0x8, addend: 0x0, symName: '___45-[CDVCamera options:requestPhotoPermissions:]_block_invoke', symObjAddr: 0x2F34, symBinAddr: 0xFB24, symSize: 0x14 }
+  - { offsetInCU: 0x1DE0, offset: 0x7DFEA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x2F48, symBinAddr: 0xFB38, symSize: 0x10 }
+  - { offsetInCU: 0x1E09, offset: 0x7E013, size: 0x8, addend: 0x0, symName: '-[CDVCamera tempFilePath:]', symObjAddr: 0x2F58, symBinAddr: 0xFB48, symSize: 0xFC }
+  - { offsetInCU: 0x1EA0, offset: 0x7E0AA, size: 0x8, addend: 0x0, symName: '-[CDVCamera retrieveImage:options:]', symObjAddr: 0x3054, symBinAddr: 0xFC44, symSize: 0x160 }
+  - { offsetInCU: 0x1F18, offset: 0x7E122, size: 0x8, addend: 0x0, symName: '-[CDVCamera resultForImage:info:completion:]', symObjAddr: 0x31B4, symBinAddr: 0xFDA4, symSize: 0x540 }
+  - { offsetInCU: 0x21BD, offset: 0x7E3C7, size: 0x8, addend: 0x0, symName: _toBase64, symObjAddr: 0x36F4, symBinAddr: 0x102E4, symSize: 0x10C }
+  - { offsetInCU: 0x234B, offset: 0x7E555, size: 0x8, addend: 0x0, symName: '-[CDVCamera resultForVideo:]', symObjAddr: 0x3800, symBinAddr: 0x103F0, symSize: 0x15C }
+  - { offsetInCU: 0x23A5, offset: 0x7E5AF, size: 0x8, addend: 0x0, symName: '-[CDVCamera createTmpVideo:]', symObjAddr: 0x395C, symBinAddr: 0x1054C, symSize: 0xE4 }
+  - { offsetInCU: 0x2432, offset: 0x7E63C, size: 0x8, addend: 0x0, symName: '-[CDVCamera imagePickerController:didFinishPickingMediaWithInfo:]', symObjAddr: 0x3A40, symBinAddr: 0x10630, symSize: 0x2A8 }
+  - { offsetInCU: 0x24CF, offset: 0x7E6D9, size: 0x8, addend: 0x0, symName: '___65-[CDVCamera imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke', symObjAddr: 0x3CE8, symBinAddr: 0x108D8, symSize: 0x240 }
+  - { offsetInCU: 0x257E, offset: 0x7E788, size: 0x8, addend: 0x0, symName: '___65-[CDVCamera imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2', symObjAddr: 0x3F28, symBinAddr: 0x10B18, symSize: 0xFC }
+  - { offsetInCU: 0x2604, offset: 0x7E80E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48w56w, symObjAddr: 0x4024, symBinAddr: 0x10C14, symSize: 0x44 }
+  - { offsetInCU: 0x262D, offset: 0x7E837, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48w56w, symObjAddr: 0x4068, symBinAddr: 0x10C58, symSize: 0x3C }
+  - { offsetInCU: 0x264C, offset: 0x7E856, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56w64w, symObjAddr: 0x40A4, symBinAddr: 0x10C94, symSize: 0x4C }
+  - { offsetInCU: 0x2675, offset: 0x7E87F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56w64w, symObjAddr: 0x40F0, symBinAddr: 0x10CE0, symSize: 0x44 }
+  - { offsetInCU: 0x2694, offset: 0x7E89E, size: 0x8, addend: 0x0, symName: '-[CDVCamera imagePickerController:didFinishPickingImage:editingInfo:]', symObjAddr: 0x4134, symBinAddr: 0x10D24, symSize: 0x88 }
+  - { offsetInCU: 0x2708, offset: 0x7E912, size: 0x8, addend: 0x0, symName: '-[CDVCamera imagePickerControllerDidCancel:]', symObjAddr: 0x41BC, symBinAddr: 0x10DAC, symSize: 0x160 }
+  - { offsetInCU: 0x2780, offset: 0x7E98A, size: 0x8, addend: 0x0, symName: '___44-[CDVCamera imagePickerControllerDidCancel:]_block_invoke', symObjAddr: 0x431C, symBinAddr: 0x10F0C, symSize: 0x134 }
+  - { offsetInCU: 0x2800, offset: 0x7EA0A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w48w, symObjAddr: 0x4450, symBinAddr: 0x11040, symSize: 0x3C }
+  - { offsetInCU: 0x2829, offset: 0x7EA33, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w48w, symObjAddr: 0x448C, symBinAddr: 0x1107C, symSize: 0x34 }
+  - { offsetInCU: 0x2848, offset: 0x7EA52, size: 0x8, addend: 0x0, symName: '-[CDVCamera locationManager]', symObjAddr: 0x44C0, symBinAddr: 0x110B0, symSize: 0x70 }
+  - { offsetInCU: 0x2880, offset: 0x7EA8A, size: 0x8, addend: 0x0, symName: '-[CDVCamera locationManager:didUpdateToLocation:fromLocation:]', symObjAddr: 0x4530, symBinAddr: 0x11120, symSize: 0x35C }
+  - { offsetInCU: 0x2934, offset: 0x7EB3E, size: 0x8, addend: 0x0, symName: '-[CDVCamera locationManager:didFailWithError:]', symObjAddr: 0x488C, symBinAddr: 0x1147C, symSize: 0x64 }
+  - { offsetInCU: 0x2982, offset: 0x7EB8C, size: 0x8, addend: 0x0, symName: '-[CDVCamera imagePickerControllerReturnImageResult]', symObjAddr: 0x48F0, symBinAddr: 0x114E0, symSize: 0x448 }
+  - { offsetInCU: 0x2B5D, offset: 0x7ED67, size: 0x8, addend: 0x0, symName: '-[CDVCamera hasPendingOperation]', symObjAddr: 0x4D38, symBinAddr: 0x11928, symSize: 0x14 }
+  - { offsetInCU: 0x2B94, offset: 0x7ED9E, size: 0x8, addend: 0x0, symName: '-[CDVCamera setHasPendingOperation:]', symObjAddr: 0x4D4C, symBinAddr: 0x1193C, symSize: 0x10 }
+  - { offsetInCU: 0x2BD1, offset: 0x7EDDB, size: 0x8, addend: 0x0, symName: '-[CDVCamera pickerController]', symObjAddr: 0x4D5C, symBinAddr: 0x1194C, symSize: 0x10 }
+  - { offsetInCU: 0x2C08, offset: 0x7EE12, size: 0x8, addend: 0x0, symName: '-[CDVCamera setPickerController:]', symObjAddr: 0x4D6C, symBinAddr: 0x1195C, symSize: 0xC }
+  - { offsetInCU: 0x2C47, offset: 0x7EE51, size: 0x8, addend: 0x0, symName: '-[CDVCamera setLocationManager:]', symObjAddr: 0x4D78, symBinAddr: 0x11968, symSize: 0x14 }
+  - { offsetInCU: 0x2C88, offset: 0x7EE92, size: 0x8, addend: 0x0, symName: '-[CDVCamera metadata]', symObjAddr: 0x4D8C, symBinAddr: 0x1197C, symSize: 0x10 }
+  - { offsetInCU: 0x2CBF, offset: 0x7EEC9, size: 0x8, addend: 0x0, symName: '-[CDVCamera setMetadata:]', symObjAddr: 0x4D9C, symBinAddr: 0x1198C, symSize: 0xC }
+  - { offsetInCU: 0x2CFE, offset: 0x7EF08, size: 0x8, addend: 0x0, symName: '-[CDVCamera data]', symObjAddr: 0x4DA8, symBinAddr: 0x11998, symSize: 0x10 }
+  - { offsetInCU: 0x2D35, offset: 0x7EF3F, size: 0x8, addend: 0x0, symName: '-[CDVCamera setData:]', symObjAddr: 0x4DB8, symBinAddr: 0x119A8, symSize: 0xC }
+  - { offsetInCU: 0x2D74, offset: 0x7EF7E, size: 0x8, addend: 0x0, symName: '-[CDVCamera .cxx_destruct]', symObjAddr: 0x4DC4, symBinAddr: 0x119B4, symSize: 0x68 }
+  - { offsetInCU: 0x2DA7, offset: 0x7EFB1, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker prefersStatusBarHidden]', symObjAddr: 0x4E2C, symBinAddr: 0x11A1C, symSize: 0x8 }
+  - { offsetInCU: 0x2DDB, offset: 0x7EFE5, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker childViewControllerForStatusBarHidden]', symObjAddr: 0x4E34, symBinAddr: 0x11A24, symSize: 0x8 }
+  - { offsetInCU: 0x2E0F, offset: 0x7F019, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker viewWillAppear:]', symObjAddr: 0x4E3C, symBinAddr: 0x11A2C, symSize: 0x84 }
+  - { offsetInCU: 0x2E73, offset: 0x7F07D, size: 0x8, addend: 0x0, symName: '+[CDVCameraPicker createFromPictureOptions:]', symObjAddr: 0x4EC0, symBinAddr: 0x11AB0, symSize: 0x1AC }
+  - { offsetInCU: 0x2EE5, offset: 0x7F0EF, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker pictureOptions]', symObjAddr: 0x506C, symBinAddr: 0x11C5C, symSize: 0x10 }
+  - { offsetInCU: 0x2F1C, offset: 0x7F126, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setPictureOptions:]', symObjAddr: 0x507C, symBinAddr: 0x11C6C, symSize: 0xC }
+  - { offsetInCU: 0x2F5B, offset: 0x7F165, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker callbackId]', symObjAddr: 0x5088, symBinAddr: 0x11C78, symSize: 0x10 }
+  - { offsetInCU: 0x2F92, offset: 0x7F19C, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setCallbackId:]', symObjAddr: 0x5098, symBinAddr: 0x11C88, symSize: 0xC }
+  - { offsetInCU: 0x2FD1, offset: 0x7F1DB, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker postUrl]', symObjAddr: 0x50A4, symBinAddr: 0x11C94, symSize: 0x10 }
+  - { offsetInCU: 0x3008, offset: 0x7F212, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setPostUrl:]', symObjAddr: 0x50B4, symBinAddr: 0x11CA4, symSize: 0xC }
+  - { offsetInCU: 0x3047, offset: 0x7F251, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker pickerPopoverController]', symObjAddr: 0x50C0, symBinAddr: 0x11CB0, symSize: 0x10 }
+  - { offsetInCU: 0x307E, offset: 0x7F288, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setPickerPopoverController:]', symObjAddr: 0x50D0, symBinAddr: 0x11CC0, symSize: 0xC }
+  - { offsetInCU: 0x30BD, offset: 0x7F2C7, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker cropToSize]', symObjAddr: 0x50DC, symBinAddr: 0x11CCC, symSize: 0x14 }
+  - { offsetInCU: 0x30F4, offset: 0x7F2FE, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setCropToSize:]', symObjAddr: 0x50F0, symBinAddr: 0x11CE0, symSize: 0x10 }
+  - { offsetInCU: 0x3131, offset: 0x7F33B, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker webView]', symObjAddr: 0x5100, symBinAddr: 0x11CF0, symSize: 0x10 }
+  - { offsetInCU: 0x3168, offset: 0x7F372, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker setWebView:]', symObjAddr: 0x5110, symBinAddr: 0x11D00, symSize: 0xC }
+  - { offsetInCU: 0x31A7, offset: 0x7F3B1, size: 0x8, addend: 0x0, symName: '-[CDVCameraPicker .cxx_destruct]', symObjAddr: 0x511C, symBinAddr: 0x11D0C, symSize: 0x7C }
+  - { offsetInCU: 0x27, offset: 0x7FE9C, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter init]', symObjAddr: 0x0, symBinAddr: 0x11D88, symSize: 0xA8C }
+  - { offsetInCU: 0x41, offset: 0x7FEB6, size: 0x8, addend: 0x0, symName: _mJpegId, symObjAddr: 0x2200, symBinAddr: 0x19C6C, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x7FED8, size: 0x8, addend: 0x0, symName: _mExifMarker, symObjAddr: 0x2204, symBinAddr: 0x19C70, symSize: 0x0 }
+  - { offsetInCU: 0x79, offset: 0x7FEEE, size: 0x8, addend: 0x0, symName: _mExif, symObjAddr: 0x2208, symBinAddr: 0x19C74, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x7FF04, size: 0x8, addend: 0x0, symName: _mMotorallaByteAlign, symObjAddr: 0x220C, symBinAddr: 0x19C78, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x7FF1A, size: 0x8, addend: 0x0, symName: _mIntelByteAlgin, symObjAddr: 0x2210, symBinAddr: 0x19C7C, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x7FF30, size: 0x8, addend: 0x0, symName: _mTiffLength, symObjAddr: 0x2214, symBinAddr: 0x19C80, symSize: 0x0 }
+  - { offsetInCU: 0x10B, offset: 0x7FF80, size: 0x8, addend: 0x0, symName: _DataTypeToWidth, symObjAddr: 0x2218, symBinAddr: 0x19C84, symSize: 0x0 }
+  - { offsetInCU: 0x179, offset: 0x7FFEE, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter init]', symObjAddr: 0x0, symBinAddr: 0x11D88, symSize: 0xA8C }
+  - { offsetInCU: 0x1B0, offset: 0x80025, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter spliceExifBlockIntoJpeg:withExifBlock:]', symObjAddr: 0xA8C, symBinAddr: 0x12814, symSize: 0x2DC }
+  - { offsetInCU: 0x2FC, offset: 0x80171, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter createExifAPP1:]', symObjAddr: 0xD68, symBinAddr: 0x12AF0, symSize: 0x154 }
+  - { offsetInCU: 0x3C3, offset: 0x80238, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter createExifIFDFromDict:withFormatDict:isIFD0:currentDataOffset:]', symObjAddr: 0xEBC, symBinAddr: 0x12C44, symSize: 0x47C }
+  - { offsetInCU: 0x596, offset: 0x8040B, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter createIFDElement:withFormat:withElementData:]', symObjAddr: 0x1338, symBinAddr: 0x130C0, symSize: 0x1B0 }
+  - { offsetInCU: 0x62E, offset: 0x804A3, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter appendExifOffsetTagTo:withOffset:]', symObjAddr: 0x14E8, symBinAddr: 0x13270, symSize: 0x174 }
+  - { offsetInCU: 0x6B7, offset: 0x8052C, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter createIFDElementDataWithFormat:withData:]', symObjAddr: 0x165C, symBinAddr: 0x133E4, symSize: 0x3BC }
+  - { offsetInCU: 0x7B7, offset: 0x8062C, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter formattedHexStringFromDecimalNumber:withPlaces:]', symObjAddr: 0x1A18, symBinAddr: 0x137A0, symSize: 0xEC }
+  - { offsetInCU: 0x82F, offset: 0x806A4, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter formatNumberWithLeadingZeroes:withPlaces:]', symObjAddr: 0x1B04, symBinAddr: 0x1388C, symSize: 0xCC }
+  - { offsetInCU: 0x8A7, offset: 0x8071C, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter decimalToRational:withResultNumerator:withResultDenominator:]', symObjAddr: 0x1BD0, symBinAddr: 0x13958, symSize: 0xA4 }
+  - { offsetInCU: 0x91F, offset: 0x80794, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter decimalToUnsignedRational:withResultNumerator:withResultDenominator:]', symObjAddr: 0x1C74, symBinAddr: 0x139FC, symSize: 0xC4 }
+  - { offsetInCU: 0x99B, offset: 0x80810, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter continuedFraction:withFractionList:withHorizon:]', symObjAddr: 0x1D38, symBinAddr: 0x13AC0, symSize: 0xC8 }
+  - { offsetInCU: 0xA35, offset: 0x808AA, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter expandContinuedFraction:withResultNumerator:withResultDenominator:]', symObjAddr: 0x1E00, symBinAddr: 0x13B88, symSize: 0x164 }
+  - { offsetInCU: 0xAEB, offset: 0x80960, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter formatFractionList:]', symObjAddr: 0x1F64, symBinAddr: 0x13CEC, symSize: 0xA0 }
+  - { offsetInCU: 0xB41, offset: 0x809B6, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter formatRationalWithNumerator:withDenominator:asSigned:]', symObjAddr: 0x2004, symBinAddr: 0x13D8C, symSize: 0xF0 }
+  - { offsetInCU: 0xBEA, offset: 0x80A5F, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter splitDouble:withIntComponent:withFloatRemainder:]', symObjAddr: 0x20F4, symBinAddr: 0x13E7C, symSize: 0x18 }
+  - { offsetInCU: 0xC49, offset: 0x80ABE, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter hexStringFromData:]', symObjAddr: 0x210C, symBinAddr: 0x13E94, symSize: 0x54 }
+  - { offsetInCU: 0xC9F, offset: 0x80B14, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter numericFromHexString:]', symObjAddr: 0x2160, symBinAddr: 0x13EE8, symSize: 0x6C }
+  - { offsetInCU: 0xD06, offset: 0x80B7B, size: 0x8, addend: 0x0, symName: '-[CDVJpegHeaderWriter .cxx_destruct]', symObjAddr: 0x21CC, symBinAddr: 0x13F54, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x80C76, size: 0x8, addend: 0x0, symName: '-[CDVLocationData init]', symObjAddr: 0x0, symBinAddr: 0x13F84, symSize: 0x6C }
+  - { offsetInCU: 0x15E, offset: 0x80DAD, size: 0x8, addend: 0x0, symName: '-[CDVLocationData init]', symObjAddr: 0x0, symBinAddr: 0x13F84, symSize: 0x6C }
+  - { offsetInCU: 0x195, offset: 0x80DE4, size: 0x8, addend: 0x0, symName: '-[CDVLocationData locationStatus]', symObjAddr: 0x6C, symBinAddr: 0x13FF0, symSize: 0x8 }
+  - { offsetInCU: 0x1CC, offset: 0x80E1B, size: 0x8, addend: 0x0, symName: '-[CDVLocationData setLocationStatus:]', symObjAddr: 0x74, symBinAddr: 0x13FF8, symSize: 0x8 }
+  - { offsetInCU: 0x209, offset: 0x80E58, size: 0x8, addend: 0x0, symName: '-[CDVLocationData locationInfo]', symObjAddr: 0x7C, symBinAddr: 0x14000, symSize: 0x8 }
+  - { offsetInCU: 0x240, offset: 0x80E8F, size: 0x8, addend: 0x0, symName: '-[CDVLocationData setLocationInfo:]', symObjAddr: 0x84, symBinAddr: 0x14008, symSize: 0xC }
+  - { offsetInCU: 0x281, offset: 0x80ED0, size: 0x8, addend: 0x0, symName: '-[CDVLocationData locationCallbacks]', symObjAddr: 0x90, symBinAddr: 0x14014, symSize: 0x8 }
+  - { offsetInCU: 0x2B8, offset: 0x80F07, size: 0x8, addend: 0x0, symName: '-[CDVLocationData setLocationCallbacks:]', symObjAddr: 0x98, symBinAddr: 0x1401C, symSize: 0xC }
+  - { offsetInCU: 0x2F9, offset: 0x80F48, size: 0x8, addend: 0x0, symName: '-[CDVLocationData watchCallbacks]', symObjAddr: 0xA4, symBinAddr: 0x14028, symSize: 0x8 }
+  - { offsetInCU: 0x330, offset: 0x80F7F, size: 0x8, addend: 0x0, symName: '-[CDVLocationData setWatchCallbacks:]', symObjAddr: 0xAC, symBinAddr: 0x14030, symSize: 0xC }
+  - { offsetInCU: 0x371, offset: 0x80FC0, size: 0x8, addend: 0x0, symName: '-[CDVLocationData .cxx_destruct]', symObjAddr: 0xB8, symBinAddr: 0x1403C, symSize: 0x3C }
+  - { offsetInCU: 0x3A4, offset: 0x80FF3, size: 0x8, addend: 0x0, symName: '-[CDVLocation pluginInitialize]', symObjAddr: 0xF4, symBinAddr: 0x14078, symSize: 0x84 }
+  - { offsetInCU: 0x3D7, offset: 0x81026, size: 0x8, addend: 0x0, symName: '-[CDVLocation isAuthorized]', symObjAddr: 0x178, symBinAddr: 0x140FC, symSize: 0xA0 }
+  - { offsetInCU: 0x43D, offset: 0x8108C, size: 0x8, addend: 0x0, symName: '-[CDVLocation isLocationServicesEnabled]', symObjAddr: 0x218, symBinAddr: 0x1419C, symSize: 0x68 }
+  - { offsetInCU: 0x490, offset: 0x810DF, size: 0x8, addend: 0x0, symName: '-[CDVLocation startLocation:]', symObjAddr: 0x280, symBinAddr: 0x14204, symSize: 0x2FC }
+  - { offsetInCU: 0x52A, offset: 0x81179, size: 0x8, addend: 0x0, symName: '-[CDVLocation _stopLocation]', symObjAddr: 0x57C, symBinAddr: 0x14500, symSize: 0x6C }
+  - { offsetInCU: 0x55D, offset: 0x811AC, size: 0x8, addend: 0x0, symName: '-[CDVLocation locationManager:didUpdateToLocation:fromLocation:]', symObjAddr: 0x5E8, symBinAddr: 0x1456C, symSize: 0x3E4 }
+  - { offsetInCU: 0x5FE, offset: 0x8124D, size: 0x8, addend: 0x0, symName: '-[CDVLocation getLocation:]', symObjAddr: 0x9CC, symBinAddr: 0x14950, symSize: 0xAC }
+  - { offsetInCU: 0x641, offset: 0x81290, size: 0x8, addend: 0x0, symName: '___27-[CDVLocation getLocation:]_block_invoke', symObjAddr: 0xA78, symBinAddr: 0x149FC, symSize: 0x2E8 }
+  - { offsetInCU: 0x6F9, offset: 0x81348, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0xD60, symBinAddr: 0x14CE4, symSize: 0x28 }
+  - { offsetInCU: 0x722, offset: 0x81371, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xD88, symBinAddr: 0x14D0C, symSize: 0x28 }
+  - { offsetInCU: 0x741, offset: 0x81390, size: 0x8, addend: 0x0, symName: '-[CDVLocation addWatch:]', symObjAddr: 0xDB0, symBinAddr: 0x14D34, symSize: 0x270 }
+  - { offsetInCU: 0x7EF, offset: 0x8143E, size: 0x8, addend: 0x0, symName: '-[CDVLocation clearWatch:]', symObjAddr: 0x1020, symBinAddr: 0x14FA4, symSize: 0x190 }
+  - { offsetInCU: 0x845, offset: 0x81494, size: 0x8, addend: 0x0, symName: '-[CDVLocation stopLocation:]', symObjAddr: 0x11B0, symBinAddr: 0x15134, symSize: 0x4 }
+  - { offsetInCU: 0x884, offset: 0x814D3, size: 0x8, addend: 0x0, symName: '-[CDVLocation returnLocationInfo:andKeepCallback:]', symObjAddr: 0x11B4, symBinAddr: 0x15138, symSize: 0x3AC }
+  - { offsetInCU: 0x936, offset: 0x81585, size: 0x8, addend: 0x0, symName: '-[CDVLocation returnLocationError:withMessage:]', symObjAddr: 0x1560, symBinAddr: 0x154E4, symSize: 0x37C }
+  - { offsetInCU: 0x9DE, offset: 0x8162D, size: 0x8, addend: 0x0, symName: '-[CDVLocation locationManager:didFailWithError:]', symObjAddr: 0x18DC, symBinAddr: 0x15860, symSize: 0x110 }
+  - { offsetInCU: 0xA61, offset: 0x816B0, size: 0x8, addend: 0x0, symName: '-[CDVLocation locationManager:didChangeAuthorizationStatus:]', symObjAddr: 0x19EC, symBinAddr: 0x15970, symSize: 0x24 }
+  - { offsetInCU: 0xAAD, offset: 0x816FC, size: 0x8, addend: 0x0, symName: '-[CDVLocation dealloc]', symObjAddr: 0x1A10, symBinAddr: 0x15994, symSize: 0x60 }
+  - { offsetInCU: 0xAE1, offset: 0x81730, size: 0x8, addend: 0x0, symName: '-[CDVLocation onReset]', symObjAddr: 0x1A70, symBinAddr: 0x159F4, symSize: 0x3C }
+  - { offsetInCU: 0xB15, offset: 0x81764, size: 0x8, addend: 0x0, symName: '-[CDVLocation locationManager]', symObjAddr: 0x1AAC, symBinAddr: 0x15A30, symSize: 0x10 }
+  - { offsetInCU: 0xB4C, offset: 0x8179B, size: 0x8, addend: 0x0, symName: '-[CDVLocation setLocationManager:]', symObjAddr: 0x1ABC, symBinAddr: 0x15A40, symSize: 0x14 }
+  - { offsetInCU: 0xB8D, offset: 0x817DC, size: 0x8, addend: 0x0, symName: '-[CDVLocation locationData]', symObjAddr: 0x1AD0, symBinAddr: 0x15A54, symSize: 0x10 }
+  - { offsetInCU: 0xBC4, offset: 0x81813, size: 0x8, addend: 0x0, symName: '-[CDVLocation setLocationData:]', symObjAddr: 0x1AE0, symBinAddr: 0x15A64, symSize: 0x14 }
+  - { offsetInCU: 0xC05, offset: 0x81854, size: 0x8, addend: 0x0, symName: '-[CDVLocation .cxx_destruct]', symObjAddr: 0x1AF4, symBinAddr: 0x15A78, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0x819AA, size: 0x8, addend: 0x0, symName: '-[CFCallNumber callNumber:]', symObjAddr: 0x0, symBinAddr: 0x15AB8, symSize: 0xAC }
+  - { offsetInCU: 0x54, offset: 0x819D7, size: 0x8, addend: 0x0, symName: '-[CFCallNumber callNumber:]', symObjAddr: 0x0, symBinAddr: 0x15AB8, symSize: 0xAC }
+  - { offsetInCU: 0x97, offset: 0x81A1A, size: 0x8, addend: 0x0, symName: '___27-[CFCallNumber callNumber:]_block_invoke', symObjAddr: 0xAC, symBinAddr: 0x15B64, symSize: 0x218 }
+  - { offsetInCU: 0x27, offset: 0x81BAF, size: 0x8, addend: 0x0, symName: '-[UIImage(CropScaleOrientation) imageByScalingAndCroppingForSize:]', symObjAddr: 0x0, symBinAddr: 0x15D7C, symSize: 0x100 }
+  - { offsetInCU: 0x43, offset: 0x81BCB, size: 0x8, addend: 0x0, symName: '-[UIImage(CropScaleOrientation) imageByScalingAndCroppingForSize:]', symObjAddr: 0x0, symBinAddr: 0x15D7C, symSize: 0x100 }
+  - { offsetInCU: 0x1CA, offset: 0x81D52, size: 0x8, addend: 0x0, symName: '-[UIImage(CropScaleOrientation) imageCorrectedForCaptureOrientation:]', symObjAddr: 0x100, symBinAddr: 0x15E7C, symSize: 0x1A4 }
+  - { offsetInCU: 0x382, offset: 0x81F0A, size: 0x8, addend: 0x0, symName: '-[UIImage(CropScaleOrientation) imageCorrectedForCaptureOrientation]', symObjAddr: 0x2A4, symBinAddr: 0x16020, symSize: 0x28 }
+  - { offsetInCU: 0x3B9, offset: 0x81F41, size: 0x8, addend: 0x0, symName: '-[UIImage(CropScaleOrientation) imageByScalingNotCroppingForSize:]', symObjAddr: 0x2CC, symBinAddr: 0x16048, symSize: 0xCC }
+...
